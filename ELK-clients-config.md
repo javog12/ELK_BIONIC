@@ -50,3 +50,6 @@ sudo filebeat setup
 sudo service filebeat start
 
 Para Logstash eviamos directo desde UDP TCP, para eso configramos el rsyslog desde el cliente:
+
+(Revisar el siguiente enlace para rsyslog: https://kifarunix.com/how-to-configure-remote-logging-with-rsyslog-on-ubuntu-18-04/)
+
