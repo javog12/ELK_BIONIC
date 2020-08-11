@@ -85,11 +85,11 @@ $ curl http:x.x.x.x:9200
 ```
 # Configurando nuestro primer Logstash:
 Para ello nos vamos a la ruta de configuracion:
-
+```sh
 $ cd /etc/logstash/conf.d
-
+```
 y creamos nuestro primer archivo de configuracion 'logstash.conf' para recibir data y enviarsela a Elastic:
-
+```sh
 input {
   beats {
     port => 5044
@@ -104,4 +104,4 @@ output {
     #password => "changeme"
   }
 }
-
+```
